@@ -1,0 +1,110 @@
+/* 
+This style sheet can be used for reference
+but not for an assignment.
+*/
+
+/* Center the body in the middle of the viewport 
+by defining min and max widths with auto right/left margins
+*/
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: cadetblue;
+}
+
+/* PAGE LAYOUT 
+Consistant design for each page layout block. 
+*/
+header {
+  background-color: cadetblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header h1,
+header p {
+  text-align: center;
+  color: white;
+}
+header p {
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+header h1 {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+h2 {
+  text-align: center;
+  color: cadetblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#exercises {
+  margin: auto;
+  text-align: center;
+}
+#exercises caption {
+  color: cadetblue;
+}
+#exercises tr {
+  text-decoration: underline;
+  color: cadetblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#exercises th {
+  padding: 10px 50px;
+}
+footer {
+  text-align: center;
+}
+label {
+  padding: 5px;
+}
+/* NAVIGATION
+Simple changes to make anchors look like buttons. 
+*/
+nav {
+  text-align: center;
+}
+nav button {
+  border-color: cadetblue;
+}
+nav button:first-child {
+  margin-right: 25px;
+  border-color: cadetblue;
+}
+nav a {
+  text-decoration: none;
+  color: cadetblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+nav a:hover {
+}
+
+/* TABLE */
+table {
+}
+caption {
+}
+tr td,
+td th {
+}
+tr:nth-child(even) {
+}
+th {
+}
+
+/* FORM */
+fieldset {
+}
+legend {
+}
+label {
+}
+input {
+}
+button {
+}
+button:hover {
+}
